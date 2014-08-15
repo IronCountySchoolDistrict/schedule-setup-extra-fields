@@ -1,0 +1,31 @@
+
+<!-- Start Next Year Teacher Customization -->
+<script type="text/template" id="next-year-template">
+    <tr class="~[evenoddrow]">
+        <td class="bold">~[text:psx.htmlc.admin_students.schedulesetup.next_year_teacher]</td>
+        <td><input type="text" name="[Students]Promote_teacher" value="" size="15"></td>
+    </tr>
+    <tr class="~[evenoddrow]">
+        <td class="bold">Boundary School</td>
+        <td>
+            <select name="[Students.U_STUDENTS_EXTENSION]Boundary_HS">
+                <option></option>
+                <option id="cedar-high-option" value="Cedar City High School">Cedar City High School</option>
+                <option id="canyon-view-high-option" value="Canyon View High School">Canyon View High School</option>
+                <option id="parowan-high-option" value="Parowan High School">Parowan High School</option>
+            </select>
+        </td>
+        </td>
+    </tr>
+</script>
+
+        <script>
+            if (typeof psData === 'undefined') {
+                psData = {};
+            }
+            psData.boundaryHS = "~([Students.U_Students_Extension]Boundary_HS)";
+        </script>
+
+<script src="/scripts/ScheduleSetupNextYearTeacher/main.js"></script>
+
+<!-- End Next Year Teacher Customization -->
