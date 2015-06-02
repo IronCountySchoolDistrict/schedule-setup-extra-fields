@@ -26,6 +26,6 @@
             psData.boundaryHS = "~([Students.U_Students_Extension]Boundary_HS)";
         </script>
 
-<script src="/scripts/ScheduleSetupNextYearTeacher/main.js"></script>
+<script src="<!-- @echo IMAGE_SERVER_URL -->/scripts/schedule-setup-next-year-teacher/main.js"></script>
 
 <!-- End Next Year Teacher Customization -->

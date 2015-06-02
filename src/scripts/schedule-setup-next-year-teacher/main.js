@@ -2,11 +2,11 @@
 require.config({
     baseUrl: '/scripts',
     paths: {
-        setup: 'ScheduleSetupNextYearTeacher/setup'
+        setup: 'schedule-setup-next-year-teacher/setup'
     }
 });
 
-require(['setup'], function (setup) {
+require(['setup'], function(setup) {
     'use strict';
     setup.main();
 });
