@@ -1,8 +1,7 @@
 /*global require*/
 require.config({
-    baseUrl: '/scripts',
     paths: {
-        setup: 'schedule-setup-next-year-teacher/setup'
+        setup: '/* @echo IMAGE_SERVER_URL *//schedule-setup-extra-fields/js/setup'
     }
 });
 

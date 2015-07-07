@@ -19,13 +19,13 @@
     </tr>
 </script>
 
-        <script>
-            if (typeof psData === 'undefined') {
-                psData = {};
-            }
-            psData.boundaryHS = "~([Students.U_Students_Extension]Boundary_HS)";
-        </script>
+<script>
+    if (typeof psData === 'undefined') {
+        psData = {};
+    }
+    psData.boundaryHS = "~([Students.U_Students_Extension]Boundary_HS)";
+</script>
 
-<script src="<!-- @echo IMAGE_SERVER_URL -->/scripts/schedule-setup-next-year-teacher/main.js"></script>
+<script src="<!-- @echo IMAGE_SERVER_URL -->/schedule-setup-extra-fields/js/main.js"></script>
 
 <!-- End Next Year Teacher Customization -->
