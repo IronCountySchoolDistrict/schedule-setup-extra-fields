@@ -1,7 +1,7 @@
 /*global require*/
 require.config({
     paths: {
-        setup: '/* @echo IMAGE_SERVER_URL *//schedule-setup-extra-fields/js/setup'
+        setup: '/scripts/schedule-setup-extra-fields/js/setup'
     }
 });
 

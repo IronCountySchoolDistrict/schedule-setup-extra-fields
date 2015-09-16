@@ -2,7 +2,7 @@
 <!-- Start Next Year Teacher Customization -->
 <script type="text/template" id="next-year-template">
     <tr class="~[evenoddrow]">
-        <td class="bold">~[text:psx.htmlc.admin_students.schedulesetup.next_year_teacher]</td>
+        <td class="bold">Next Year Teacher</td>
         <td><input type="text" name="[Students]Promote_teacher" value="" size="15"></td>
     </tr>
     <tr class="~[evenoddrow]">
@@ -26,6 +26,6 @@
     psData.boundaryHS = "~([Students.U_Students_Extension]Boundary_HS)";
 </script>
 
-<script src="<!-- @echo IMAGE_SERVER_URL -->/schedule-setup-extra-fields/js/main.js"></script>
+<script src="/scripts/schedule-setup-extra-fields/js/main.js"></script>
 
 <!-- End Next Year Teacher Customization -->
