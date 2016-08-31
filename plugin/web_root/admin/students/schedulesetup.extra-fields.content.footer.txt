@@ -26,6 +26,17 @@
     psData.boundaryHS = "~([Students.U_Students_Extension]Boundary_HS)";
 </script>
 
-<script src="/scripts/schedule-setup-extra-fields/js/main.js"></script>
+<script>
+  require.config({
+      paths: {
+          setup: '/scripts/schedule-setup-extra-fields/js/setup'
+      }
+  });
+
+  require(['setup'], function(setup) {
+      'use strict';
+      setup.init();
+  });
+</script>
 
 <!-- End Next Year Teacher Customization -->
