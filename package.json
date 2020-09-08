@@ -40,6 +40,13 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.4.5",
+    "acorn": "^6.4.1",
+    "bl": "^2.2.1",
+    "decompress": "^4.2.1",
+    "kind-of": "^6.0.3",
+    "lodash": "^4.17.19",
+    "lodash.template": "^4.5.0",
+    "minimist": "^1.2.3",
     "node-sass": "^4.13.1"
   }
 }
