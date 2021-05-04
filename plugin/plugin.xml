@@ -3,7 +3,7 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         description="Displays the Promote_teacher and Boundary High School fields on the Scheduling Setup page."
         name="Schedule Setup Extra Fields"
-        version="1.0.0"
+        version="1.0.1"
         xsi:schemaLocation="http://plugin.powerschool.pearson.com plugin.xsd">
 
     <publisher name="Iron County School District Data Team">
